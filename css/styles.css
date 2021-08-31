@@ -1,0 +1,132 @@
+/* Color Palette */
+:root {
+  --melon: #ffaaa7;
+  --apricot: #ffd3b4;
+  --tea-green: #d5ecc2;
+  --middle-blue-green: #98ddca;
+  --raisin-black: #242331;
+  --ghost-white: #f3f3f7;
+
+  --duration: 0s;
+}
+
+body {
+  background: var(--ghost-white);
+}
+
+main {
+  height: 100vh;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+h1, h2, p {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 300;
+  color: var(--raisin-black);
+}
+
+h1 {
+  padding-top: 32vh;
+  margin-top: 0;
+  font-size: 70px;
+  letter-spacing: 5px;
+}
+
+span {
+  font-weight: 600;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--raisin-black);
+}
+
+@keyframes mColors {
+  0% {color: var(--tea-green);}
+  25% {color: var(--apricot);}
+  50% {color: var(--melon);}
+  75% {color: var(--middle-blue-green);}
+  100% {color: var(--tea-green);}
+}
+
+@keyframes aColors {
+  0% {color: var(--melon);}
+  25% {color: var(--middle-blue-green);}
+  50% {color: var(--tea-green);}
+  75% {color: var(--apricot);}
+  100% {color: var(--melon);}
+}
+
+@keyframes rColors {
+  0% {color: var(--middle-blue-green);}
+  25% {color: var(--tea-green);}
+  50% {color: var(--apricot);}
+  75% {color: var(--melon);}
+  100% {color: var(--middle-blue-green);}
+}
+
+@keyframes cColors {
+  0% {color: var(--tea-green);}
+  25% {color: var(--melon);}
+  50% {color: var(--middle-blue-green);}
+  75% {color: var(--apricot);}
+  100% {color: var(--tea-green);}
+}
+
+@keyframes iColors {
+  0% {color: var(--apricot);}
+  25% {color: var(--middle-blue-green);}
+  50% {color: var(--melon);}
+  75% {color: var(--tea-green);}
+  100% {color: var(--apricot);}
+}
+
+@keyframes eColors {
+  0% {color: var(--melon);}
+  25% {color: var(--apricot);}
+  50% {color: var(--tea-green);}
+  75% {color: var(--middle-blue-green);}
+  100% {color: var(--melon);}
+}
+
+
+#m {
+  color: var(--tea-green);
+  animation-name: mColors;
+  animation-duration: var(--duration);
+  animation-iteration-count: infinite;
+}
+
+#a {
+  color: var(--melon);
+  animation-name: aColors;
+  animation-duration: var(--duration);
+  animation-iteration-count: infinite;
+}
+
+#r {
+  color: var(--middle-blue-green);
+  animation-name: rColors;
+  animation-duration: var(--duration);
+  animation-iteration-count: infinite;
+}
+
+#c {
+  color: var(--tea-green);
+  animation-name: cColors;
+  animation-duration: var(--duration);
+  animation-iteration-count: infinite;
+}
+
+#i {
+  color: var(--apricot);
+  animation-name: iColors;
+  animation-duration: var(--duration);
+  animation-iteration-count: infinite;
+}
+
+#e {
+  color: var(--melon);
+  animation-name: rColors;
+  animation-duration: var(--duration);
+  animation-iteration-count: infinite;
+}
