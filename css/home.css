@@ -1,0 +1,88 @@
+main h1, main h1 span {
+  font-size: 4rem;
+
+  font-family: clone-rounded-latin, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+
+  margin-bottom: 50px;
+}
+
+main h2 {
+  font-family: monotype-grotesque, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2rem;
+
+  margin-bottom: 20px;
+}
+
+main .col {
+  max-height: 360px;
+}
+
+.portrait {
+  width: 350px;
+  height: 350px;
+
+  background-color: var(--blue);
+  border-radius: 100%;
+
+  position: relative;
+  z-index: -1;
+  top: -340px;
+  left: 130px;
+  float: right;
+
+  margin: 0;
+}
+
+.button {
+  font-family: clone-rounded-latin, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+
+  background: var(--pink);
+  border-radius: 25px;
+  color: var(--black);
+
+  padding: 5px 20px;
+}
+
+.button:hover {
+  color: var(--black);
+}
+
+.socialmedia {
+  text-align: right;
+  margin: auto;
+}
+
+.socialmedia a {
+  display: inline-block;
+  width: 40px;
+  margin-bottom: 5px;
+}
+
+.m, .a, .r, .c, .i, .e {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--black);
+}
+
+.m, .c {
+  color: var(--green);
+}
+
+.a, .e {
+  color: var(--pink);
+}
+
+.r {
+  color: var(--blue);
+}
+
+.i {
+  color: var(--orange);
+}
