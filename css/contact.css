@@ -1,0 +1,110 @@
+main .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+main form {
+  background-color: var(--white);
+  padding: 30px 50px;
+  border: 1px solid var(--darkwhite);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+main form button {
+  background-color: var(--orange);
+  border: 1px solid var(--darkorange);
+  border-radius: 20px;
+
+  padding: 5px 20px;
+
+  font-family: clone-rounded-latin, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.125rem;
+  color: var(--black);
+
+  float: right;
+}
+
+main h2 {
+  font-family: clone-rounded-latin, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+main section {
+  margin-top: 70px;
+}
+
+main .flexprocess {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+main i {
+  font-size: 2rem;
+}
+
+main .flexprocess p {
+  font-family: clone-rounded-latin, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+main .circle {
+  width: 175px;
+  height: 175px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+main .circle1 {
+  background-color: var(--green);
+}
+
+main .circle2 {
+  background-color: var(--pink);
+}
+
+main .circle3 {
+  background-color: var(--blue);
+}
+
+main .circle4 {
+  background-color: var(--orange);
+}
+
+main .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .circle i {
+  font-size: 4rem;
+}
+
+main h3 {
+  font-family: monotype-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
+
+  margin-top: 20px;
+}
+
+main #process .col-6 {
+  margin-top: 70px;
+}
+
+main .center {
+  text-align: center;
+  margin-bottom: 70px;
+}
